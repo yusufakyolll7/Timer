@@ -5,7 +5,7 @@ def send_notification(title, message):
     notification.notify(
         title=title,
         message=message,
-        timeout=10
+        timeout=3
     )
 
 if __name__ == "__main__":
